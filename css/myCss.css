@@ -1,0 +1,158 @@
+/* 
+headers and content
+=========================
+*/
+
+body{
+	background-color:#e5e6e6;
+	color: #444;
+}
+
+.callout{
+	border:none;
+	text-align: center;
+}
+
+div#bck_4, div#bck_7 {
+    background-color: #495057;
+    color:#fff;
+    border-top:solid 2px #fff;
+    border-bottom:solid 2px #fff;
+}
+
+div#bck_1 .rowNo09{
+	margin-top:0;
+	margin-bottom:0;
+}
+
+div#bck_1{
+	background-color: #4e9bd4;
+	color:#fff;
+}
+
+div#block_5, div#block_6, div#block_8 {
+    background-color: #fff;
+    margin-top: 1.8em;
+    margin-bottom: 1.8em;
+}
+
+.top-bar, .top-bar ul {
+	background-color: transparent !important;
+	color:#fff !important;;
+	font-weight: bold;
+}
+
+.top-bar ul a {
+	color:#fff;
+}
+
+.top-bar-right ul{
+ margin-top:9px;
+}
+
+
+#orangeTB{
+	background-color: orange;
+	font-size: 0.8em;
+}
+
+#orangeTB .top-bar{
+	padding: 0;
+}
+
+#greyTB{
+	background-color: #444;
+}
+
+
+/* stop nav bar leak on screen */
+
+.off-canvas-content, .off-canvas-content{
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.no-js .top-bar {
+  display: none;
+}
+
+@media screen and (min-width: 40em) {
+  .no-js .top-bar {
+    display: block;
+  }
+
+  .no-js .title-bar {
+    display: none;
+  }
+}
+
+
+
+/* 
+Footer 8
+=========================
+*/
+
+footer#footer {
+    background-color: #292929;
+}
+
+footer#footer, footer#footer a, footer .copyright a {
+    color: #fff;
+    text-decoration: none !important;
+}
+
+.footerTop{
+	padding-top: 1em;
+	margin-top: 1em;
+}
+
+footer ul{
+	list-style-type: none;
+}
+
+footer ul li{
+	display: inline;
+	margin: 7px;
+}
+
+.copyright{
+    float: left;
+}
+
+#footer .icons{
+    float: right;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 800px) {
+    .rowNo10 h2, .rowNo05 h2 {
+        margin-top:1em;
+    }
+
+    h2,h3 {
+    	font-weight: bold;
+    }
+}
+
+@media only screen and (max-width: 901px) {
+
+    footer{ 
+    	text-align: center;
+    }
+
+    .footerTop .medium-6{ 
+    	width:100%;
+    	text-align: center;
+    }
+
+    .copyright, .footerTop .medium-6 .icons{
+    	clear: both !important;
+    	float: none !important;
+    	text-align: center;
+    }
+
+    
+}

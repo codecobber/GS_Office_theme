@@ -1,0 +1,69 @@
+/* Row Data CSS 
+======================= */
+
+
+
+/* general margins */
+
+.rowNo01, .rowNo02, .rowNo03, .rowNo04, .rowNo05, .rowNo06, .rowNo07, .rowNo08, .rowNo09, .rowNo10, .rowNo11, .rowNo12, .rowNo13,.rowNo14, .rowNo15, .rowNo16, .rowNo17, .rowNo18, .rowNo19, .rowNo20, .rowNo21, .rowNo22, .rowNo23, .rowNo24, .rowNo25, .rowNo26, .rowNo27, .rowNo28, .rowNo29, .rowNo30, .rowNo31{
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  float: none !important;
+}
+
+
+.rowNo03{
+  background-color:#444;
+  text-align: center;
+}
+
+.rowNo03 a{
+  color:#fff;
+}
+
+
+.rowNo04 a{
+  color:#fff;
+}
+
+
+.rowNo07 .column{
+  margin:20px 0;
+
+}
+
+.rowNo09{
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+  float: none !important;
+}
+
+
+
+.rowNo26.signup-panel {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-top: 30px;
+}
+.rowNo26.signup-panel i {
+  font-size: 30px;
+  line-height: 50px;
+  color: #999;
+}
+.rowNo26.signup-panel form input, .rowNo26.signup-panel form span {
+  height: 50px;
+}
+.rowNo26.signup-panel .welcome {
+  font-size: 26px;
+  text-align: center;
+  margin-left: 0;
+}
+.rowNo26.signup-panel p {
+  font-size: 13px;
+  font-weight: 200;
+  margin-left: 25%;
+}
+.rowNo26.signup-panel .button {
+  margin-left: 35%;
+}
